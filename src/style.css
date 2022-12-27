@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Kalam';
+  src: url(/src/Kalam-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6d3a3;
+  color: #91972a;
+  min-height: 100vh;
+  font-family: 'Kalam';
+  font-size: 14pt;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2% 0 2%;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f4f3;
+  width: 50vw;
+  height: 90vh;
+  margin-top: 2%;
+}
+
