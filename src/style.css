@@ -9,6 +9,8 @@
 
 body {
   background-color: #e6d3a3;
+  background-image: url(/src/images/veggieBG.jpg);
+  background-size: cover;
   color: #91972a;
   min-height: 100vh;
   font-family: 'Kalam';
@@ -75,12 +77,10 @@ footer {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  background-color: #f2f4f3;
+  background-color: #f2f4f3f3;
   border-radius: 40px;
-  box-shadow: 0px 0px 8px 0px #91972a;
+  box-shadow: 0px 0px 8px 0px #1f5500;
   width: 35vw;
   height: 90vh;
   margin-top: 2%;
 }
-
-
