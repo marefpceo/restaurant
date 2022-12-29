@@ -11,6 +11,7 @@ body {
   background-color: #e6d3a3;
   background-image: url(/src/images/veggieBG.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   color: #91972a;
   min-height: 100vh;
   font-family: 'Kalam';
@@ -49,10 +50,22 @@ header ul li:hover {
   cursor: pointer;
 }
 
+header ul li:active {
+  transform: scale(0.9);
+}
+
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 60%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+section::-webkit-scrollbar {
+  display: none;
 }
 
 section ul {
@@ -80,7 +93,21 @@ footer {
   background-color: #f2f4f3f3;
   border-radius: 40px;
   box-shadow: 0px 0px 8px 0px #1f5500;
-  width: 35vw;
+  width: 50vw;
   height: 90vh;
   margin-top: 2%;
+}
+
+.items {
+  background-color: #e6d3a336;
+  border: 1px solid #91972a;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 85%;
+}
+
+.items img {
+  width: 40%;
+  height: auto;
 }

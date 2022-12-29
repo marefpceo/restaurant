@@ -35,6 +35,9 @@ function loadPage() {
   header.appendChild(buildMenu());
 
   content.appendChild(header);
+
+  content.appendChild(section);
+  content.appendChild(buildFooter());
   return content;
 }
 

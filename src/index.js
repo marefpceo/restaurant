@@ -1,11 +1,13 @@
-import defaultExport from './home';
+// import defaultExport from './home';
 import { loadPage } from './pageload';
+import menuLoad from './menu';
 
 
 function component() {
     
     loadPage();
-    defaultExport.loadHome();
+    menuLoad.menuLoad();
+    // defaultExport.loadHome();
     return console.log('index.js test');
 }
 

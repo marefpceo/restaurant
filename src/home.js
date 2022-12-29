@@ -1,4 +1,4 @@
-import { buildFooter, content, section } from './pageload';
+import { content, section } from './pageload';
 
 function buildHours() {
   const hours = '7am - 3pm';
@@ -32,9 +32,6 @@ function loadHome() {
 
   section.appendChild(p);
   section.appendChild(buildHours());
-
-  content.appendChild(section);
-  content.appendChild(buildFooter());
 
   return content;
 }
