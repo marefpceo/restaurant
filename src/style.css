@@ -27,6 +27,11 @@ h1 {
   padding-top: 15px;
 }
 
+h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
 header ul {
   list-style: none;
   display: grid;
@@ -99,6 +104,10 @@ footer {
 }
 
 .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
   background-color: #e6d3a336;
   border: 1px solid #91972a;
   border-radius: 8px;
@@ -108,6 +117,23 @@ footer {
 }
 
 .items img {
-  width: 40%;
+  width: 100%;
   height: auto;
+}
+
+.image-div {
+  max-width: 250px;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: 15px;
+}
+
+.card p {
+  margin: 0;
 }

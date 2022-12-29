@@ -10,12 +10,12 @@ const menuItems = [{
 {
   item: 'Chickpea Salad',
   image: chickpeaSaladImg,
-  description: 'Chickpea',
+  description: 'Chickpea salad, loaded with sweet potatoes, baby spinach, dried cranberries, and topped with balsamic vinaigrette.'
 },
 {
   item: 'Veggie Burger',
   image: veggieBurgerImg,
-  description: 'Veggie Burger',
+  description: 'Juicy blackbean patty on a brioche bun, topped with green leaf lettuce, tomotoes, pickles and our signature vegan cheese sauce.',
 }];
 
 export default { menuItems };
