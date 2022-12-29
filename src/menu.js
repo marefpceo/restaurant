@@ -2,7 +2,8 @@ import { section } from './pageload';
 import menuItems from './menuItems';
 
 function menuLoad() {
-  
+  const activeTab = document.getElementById('Menu');
+  activeTab.id = 'current';
   for (let i = 0; i < menuItems.menuItems.length; i += 1){
     const div = document.createElement('div');
     const img = document.createElement('img');
@@ -27,4 +28,4 @@ function menuLoad() {
   return console.log(menuItems.menuItems);
 }
 
-export default{ menuLoad };
+export default { menuLoad };

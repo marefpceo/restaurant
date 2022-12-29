@@ -9,6 +9,7 @@ function buildMenu() {
 
   for (let i = 0; i < menu.length; i += 1) {
     const li = document.createElement('li');
+    li.id = menu[i];
     li.innerHTML = menu[i];
     ul.appendChild(li);
   }
