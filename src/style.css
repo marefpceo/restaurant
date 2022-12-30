@@ -138,3 +138,28 @@ footer {
 .card p {
   margin: 0;
 }
+
+.map {
+  display: flex;
+  border: 1px solid #91972a;
+  border-radius: 8px;
+  background-color: #e6d3a336;
+  max-width: 60%;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+}
+
+.address-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #91972a;
+  border-radius: 8px;
+  background-color: #e6d3a336;
+  width: 30%;
+}

@@ -1,14 +1,15 @@
 // import defaultExport from './home';
 import { loadPage } from './pageload';
-import menuLoad from './menu';
+// import menuLoad from './menu';
+import contact from './contact';
 
 
 function component() {
     
     loadPage();
-    menuLoad.menuLoad();
+    // menuLoad.menuLoad();
     // defaultExport.loadHome();
-    return console.log('index.js test');
+    contact.contactLoad();
 }
 
 component();

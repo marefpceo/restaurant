@@ -1,4 +1,4 @@
-import { content, section } from './pageload';
+import { section } from './pageload';
 
 function buildHours() {
   const hours = '7am - 3pm';
@@ -34,8 +34,6 @@ function loadHome() {
 
   section.appendChild(p);
   section.appendChild(buildHours());
-
-  return content;
 }
 
 export default { loadHome };

@@ -42,4 +42,4 @@ function loadPage() {
   return content;
 }
 
-export { buildMenu, buildFooter, loadPage, content, header, section };
+export { loadPage, section };
