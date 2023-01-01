@@ -799,7 +799,7 @@ function loadPage() {
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/Kalam-Regular.ttf";
+module.exports = __webpack_require__.p + "./images/Kalam-Regular.ttf";
 
 /***/ }),
 
@@ -809,7 +809,7 @@ module.exports = __webpack_require__.p + "images/Kalam-Regular.ttf";
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/chickpea-salad-sm.jpg";
+module.exports = __webpack_require__.p + "./images/chickpea-salad-sm.jpg";
 
 /***/ }),
 
@@ -819,7 +819,7 @@ module.exports = __webpack_require__.p + "images/chickpea-salad-sm.jpg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/logo.svg";
+module.exports = __webpack_require__.p + "./images/logo.svg";
 
 /***/ }),
 
@@ -829,7 +829,7 @@ module.exports = __webpack_require__.p + "images/logo.svg";
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/pumpkin-soup-sm.jpg";
+module.exports = __webpack_require__.p + "./images/pumpkin-soup-sm.jpg";
 
 /***/ }),
 
@@ -839,7 +839,7 @@ module.exports = __webpack_require__.p + "images/pumpkin-soup-sm.jpg";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/veggie-burger-sm.jpg";
+module.exports = __webpack_require__.p + "./images/veggie-burger-sm.jpg";
 
 /***/ }),
 
@@ -849,7 +849,7 @@ module.exports = __webpack_require__.p + "images/veggie-burger-sm.jpg";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/veggieBG.jpg";
+module.exports = __webpack_require__.p + "./images/veggieBG.jpg";
 
 /***/ })
 
