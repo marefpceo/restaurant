@@ -9,7 +9,7 @@
 
 body {
   background-color: #e6d3a3;
-  background-image: url(/src/images/veggieBG.jpg);
+  background-image: url('./images/veggieBG.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: #91972a;
