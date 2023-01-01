@@ -9,7 +9,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: 'images/[name][ext][query]',
-    publicPath: '../src/',
+    publicPath: '../dist/',
   },
   // plugins: [
   //   new HtmlWebpackPlugin({
