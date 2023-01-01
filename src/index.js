@@ -2,6 +2,8 @@ import { loadPage , header , section, buildMenu } from './pageload';
 import home from './home';
 import menuLoad from './menu';
 import contact from './contact';
+import './style.css';
+
 
 
 function clearSection() {
