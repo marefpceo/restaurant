@@ -3,17 +3,18 @@ const header = document.createElement('header');
 const section = document.createElement('section');
 const footer = document.createElement('footer');
 
+
 function buildMenu() {
   const menu = ['Home', 'Menu', 'Contact'];
-  const ul = document.createElement('ul');
+  const nav = document.createElement('nav');  
 
   for (let i = 0; i < menu.length; i += 1) {
-    const li = document.createElement('li');
-    li.id = menu[i];
-    li.innerHTML = menu[i];
-    ul.appendChild(li);
+    const button = document.createElement('button');
+    button.id = menu[i];
+    button.innerHTML = menu[i];
+    nav.appendChild(button);
   }
-  return ul;
+  return nav;
 }
 
 function buildFooter() {
@@ -42,4 +43,4 @@ function loadPage() {
   return content;
 }
 
-export { loadPage, section };
+export { loadPage, buildMenu, header, section };
