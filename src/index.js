@@ -4,8 +4,6 @@ import menuLoad from './menu';
 import contact from './contact';
 import './style.css';
 
-
-
 function clearSection() {
     header.lastElementChild.replaceWith(buildMenu());
     section.innerHTML = '';

@@ -1,4 +1,5 @@
 import { section } from './pageload';
+import map from './images/map.png';
 
 const address = `1234 Corn Row Dr.<br>
                 Some City, CA 90034<br>
@@ -12,7 +13,7 @@ function contactLoad() {
   div.className = 'map';
 
   const img = document.createElement('img');
-  img.src = '/src/images/map.png';
+  img.src = map;
 
   const addressDiv = document.createElement('div');
   addressDiv.className = 'address-div';

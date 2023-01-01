@@ -1,5 +1,4 @@
 const path = require('path');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -8,14 +7,9 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: './images/[name][ext][query]',
+    assetModuleFilename: './assets/[name][ext][query]',
     publicPath: '',
   },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     title: 'The Veggie Table',
-  //   }),
-  // ],
   module: {
     rules: [
       {
@@ -36,10 +30,6 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },
-      // {
-      //   test: /\.html$/i,
-      //   loader: 'html-loader',
-      // },
     ],
   },
 };
