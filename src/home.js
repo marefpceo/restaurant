@@ -1,4 +1,5 @@
 import { section } from './pageload';
+import logo from './images/logo.svg';
 
 function buildHours() {
   const hours = '7am - 3pm';
@@ -21,13 +22,13 @@ function buildHours() {
 }
 
 function loadHome() {
-  const logo = document.createElement('img');
+  const logoImg = document.createElement('img');
   const activeTab = document.getElementById('Home');
   activeTab.id = 'current';
-  logo.src = '/src/images/logo.svg';
-  logo.width = '249';
-  logo.height = '169';
-  section.appendChild(logo);
+  logoImg.src = logo;
+  logoImg.width = '249';
+  logoImg.height = '169';
+  section.appendChild(logoImg);
 
   const p = document.createElement('p');
   p.textContent = 'Farm to table. . . Fresh to dressed!!';
