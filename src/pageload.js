@@ -3,7 +3,6 @@ const header = document.createElement('header');
 const section = document.createElement('section');
 const footer = document.createElement('footer');
 
-
 function buildMenu() {
   const menu = ['Home', 'Menu', 'Contact'];
   const nav = document.createElement('nav');  

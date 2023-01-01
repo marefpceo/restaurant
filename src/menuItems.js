@@ -1,6 +1,6 @@
-const pumpkinSoupImg = '/src/images/pumpkin-soup-sm.jpg';
-const chickpeaSaladImg = '/src/images/chickpea-salad-sm.jpg';
-const veggieBurgerImg = '/src/images/veggie-burger-sm.jpg';
+import pumpkinSoupImg from './images/pumpkin-soup-sm.jpg';
+import chickpeaSaladImg from './images/chickpea-salad-sm.jpg';
+import veggieBurgerImg from './images/veggie-burger-sm.jpg';
 
 const menuItems = [{
   item: 'Creamy Roasted Pumpkin Soup',

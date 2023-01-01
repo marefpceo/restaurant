@@ -25,7 +25,7 @@ function menuLoad() {
     div.appendChild(card);
     section.appendChild(div);
   }
-  return console.log(menuItems.menuItems);
+  return section;
 }
 
 export default { menuLoad };

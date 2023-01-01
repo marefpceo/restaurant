@@ -1,25 +1,32 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
   devtool: 'inline-source-map',
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Output Management',
-    }),
-  ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'auto',
+    assetModuleFilename: 'images/[name][ext][query]',
+    publicPath: '../src/',
   },
+  // plugins: [
+  //   new HtmlWebpackPlugin({
+  //     title: 'The Veggie Table',
+  //   }),
+  // ],
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 
+        {
+          loader: 'css-loader',
+          options: {
+          },
+        },
+      ],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -29,6 +36,10 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },
+      // {
+      //   test: /\.html$/i,
+      //   loader: 'html-loader',
+      // },
     ],
   },
 };
